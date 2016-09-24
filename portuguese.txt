@@ -1,0 +1,72 @@
+# VitaShell language file
+
+# General strings
+ERROR                                = "Erro 0x%08X."
+OK                                   = "OK"
+YES                                  = "Sim"
+NO                                   = "Não"
+CANCEL                               = "Cancelar"
+FOLDER                               = "Pasta"
+
+# Progress strings
+MOVING                               = "Movendo..."
+COPYING                              = "Copiando..."
+DELETING                             = "Apagando..."
+INSTALLING                           = "Instalando..."
+DOWNLOADING                          = "Transferindo..."
+EXTRACTING                           = "Extraindo..."
+HASHING                              = "Hashing..."
+
+# Audio player strings
+TITLE                                = "Titulo"
+ALBUM                                = "Album"
+ARTIST                               = "Artista"
+GENRE                                = "Género"
+YEAR                                 = "Ano"
+
+# Hex editor strings
+OFFSET                               = "Offset"
+OPEN_HEX_EDITOR                      = "Abrir editor hex"
+
+# Text editor strings
+EDIT_LINE                            = "Editar linha"
+ENTER_SEARCH_TERM                    = "Insira termo de pesquisa"
+CUT                                  = "Cortar"
+INSERT_EMPTY_LINE                    = "Inserir linha vazia"
+
+# File browser context menu strings
+MORE                                 = "Mais"
+MARK_ALL                             = "Marcar tudo"
+UNMARK_ALL                           = "Desmarcar tudo"
+MOVE                                 = "Mover"
+COPY                                 = "Copiar"
+PASTE                                = "Colar"
+DELETE                               = "Apagar"
+RENAME                               = "Mudar o nome"
+NEW_FOLDER                           = "Nova pasta"
+INSTALL_ALL                          = "Instalar tudo"
+CALCULATE_SHA1                       = "Calcular SHA1"
+SEARCH                               = "Pesquisa"
+
+# File browser strings
+COPIED_FILE                          = "Copiado ficheiro %d ."
+COPIED_FOLDER                        = "Copiado pasta %d ."
+COPIED_FILES_FOLDERS                 = "Copiado ficheiro(s)/pasta(s) %d ."
+
+# Dialog questions
+DELETE_FILE_QUESTION                 = "De certeza que pretende apagar este ficheiro?"
+DELETE_FOLDER_QUESTION               = "De certeza que pretende apagar esta pasta?"
+DELETE_FILES_FOLDERS_QUESTION        = "De certeza que pretende apagar este(s) ficheiro(s)/pasta(s)?"
+INSTALL_ALL_QUESTION                 = "Quer instalar todos os pacotes na pasta?"
+INSTALL_QUESTION                     = "Quer instalar este pacote?"
+INSTALL_WARNING                      = "Este pacote requer permissões extendidas.\Poderá aceder a informações pessoais.\Quer continuar a instalação?"
+HASH_FILE_QUESTION                   = "SHA1 hashing pode demorar muito tempo. Continuar?"
+
+# Others
+PLEASE_WAIT                          = "Aguarde..."
+SAVE_MODIFICATIONS                   = "Quer salvar as alterações?"
+NO_SPACE_ERROR                       = "Não existe espaço suficiente no cartão\de memória.\Precisa de pelo menos mais %s de espaço."
+WIFI_ERROR                           = "Precisa de Wi-Fi para fazer isto."
+FTP_SERVER                           = "O servidor FTP está a correr em\ftp://%s:%i\\Carregue 'OK' para o manter em segundo plano.\Carregue 'Cancelar' para desligar."
+SYS_INFO                             = "Versão de Software: %s\Modelo: 0x%08X\Endereço MAC: %s\Endereço IP: %s\Cartão de memória: %s/%s"
+UPDATE_QUESTION                      = "VitaShell %s está disponivel.\\Deseja actualizar?"
